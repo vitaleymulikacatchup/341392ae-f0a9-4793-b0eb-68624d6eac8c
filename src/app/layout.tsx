@@ -27,18 +27,22 @@ export const metadata: Metadata = {
     siteName: "MemePulse",
     title: "MemePulse — a fun memecoin with clear buy steps and tokenomics",
     description: "MemePulse makes memecoin simple and fun with clear buy steps, transparent tokenomics, and a community-first vibe.",
-    image: {
-      url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/draw-a-cartoon-desert-landscape-in-16-9--1759758974328-3bee185f.jpg",
-      width: 1200,
-      height: 630,
-      alt: "MemePulse logo with colorful meme-inspired artwork",
-    },
+    images: [
+      {
+        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/draw-a-cartoon-desert-landscape-in-16-9--1759758974328-3bee185f.jpg",
+        width: 1200,
+        height: 630,
+        alt: "MemePulse logo with colorful meme-inspired artwork",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "MemePulse — a fun memecoin with clear buy steps and tokenomics",
     description: "MemePulse makes memecoin simple and fun with clear buy steps, transparent tokenomics, and a community-first vibe.",
-    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/draw-a-cartoon-desert-landscape-in-16-9--1759758974328-3bee185f.jpg"],
+    images: [
+      "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/draw-a-cartoon-desert-landscape-in-16-9--1759758974328-3bee185f.jpg"
+    ],
   },
   robots: {
     index: true,
