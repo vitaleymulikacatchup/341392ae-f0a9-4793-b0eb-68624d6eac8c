@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import SimpleHero from '@/components/sections/layouts/hero/FrameHero';
@@ -21,7 +21,7 @@ export default function Home() {
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/design-a-simple-high-contrast-logo-for-m-1759758979124-7cfc5dfe.jpg"
           logoWidth={100}
           logoHeight={40}
-          navItems={[{ name: "hero", id: "#hero" }, { name: "about", id: "#about" }, { name: "how-to-buy", id: "#how-to-buy" }, { name: "tokenomics", id: "#tokenomics" }, { name: "footer", id: "#footer" }]}
+          navItems={[{ name: "Hero", id: "#hero" }, { name: "About", id: "#about" }, { name: "How to Buy", id: "#how-to-buy" }, { name: "Tokenomics", id: "#tokenomics" }, { name: "Footer", id: "#footer" }]}
           buttonText="Join the Meme"
         />
       </div>
@@ -38,7 +38,7 @@ export default function Home() {
       <div id="about" data-section="about" className="scroll-mt-24">
         <CtaAbout
           title="What is MemePulse?"
-          descriptions={["MemePulse makes memecoin easy and fun.", "Join our vibrant community and enjoy meme-inspired adventures.", "Support your creativity while investing in fun." ]}
+          descriptions={["MemePulse makes memecoin easy and fun.", "Join our vibrant community and enjoy meme-inspired adventures.", "Support your creativity while investing in fun.", ]}
         />
       </div>
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
