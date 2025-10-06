@@ -21,7 +21,7 @@ export default function Home() {
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/design-a-simple-high-contrast-logo-for-m-1759758979124-7cfc5dfe.jpg"
           logoWidth={100}
           logoHeight={40}
-          navItems={[{ name: "Hero", id: "#hero" }, { name: "About", id: "#about" }, { name: "How to Buy", id: "#how-to-buy" }, { name: "Tokenomics", id: "#tokenomics" }, { name: "Footer", id: "#footer" }]}
+          navItems={[{ name: "Hero", id: "hero" }, { name: "About", id: "about" }, { name: "How to Buy", id: "how-to-buy" }, { name: "Tokenomics", id: "tokenomics" }, { name: "Footer", id: "footer" }]}
           buttonText="Join the Meme"
         />
       </div>
